@@ -1,20 +1,39 @@
-.brand {
-    font-family: Helvetica, 'Times New Roman', Times, serif;
-}
-
-.nav-item {
-    margin-left: 100px;
-    color: black;
-    font-family: sans-serif, 'Times New Roman', Times, serif;
-}
-
 .header-container {
     text-align: left;
 }
 
+.brand {
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    opacity: 85%;
+}
+
+.brand:hover {
+    opacity: 100%;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
+.nav-item {
+    margin-left: 100px;
+    opacity: 75%;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+.nav-item:hover {
+    opacity: 100%;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
 .navbar {
     background-color: #FFFFFF;
-    top: 0;
 }
 
 .container-fluid {
@@ -32,6 +51,7 @@
 .shopping-cart:hover {
     opacity: 0.5;
 }
+
 body {
     background-color: #F1F1F1;
 }
