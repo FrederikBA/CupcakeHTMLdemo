@@ -1,6 +1,22 @@
 body {
     background-color: #F1F1F1;
-    background-image:url(/img/variouscupcakes.jpg);
-    background-repeat:no-repeat;
-    background-size:100%;
+    background-image: url(/img/variouscupcakes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.left-col {
+    height: 150px;
+    background-color:green;
+    text-align:center;
+}
+
+.right-col {
+    height: 150px;
+    background-color:red;
+    text-align:center;
+}
+
+.main-container {
+    background-color: #F1F1F1;
 }
